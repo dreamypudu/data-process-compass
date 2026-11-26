@@ -71,7 +71,7 @@ El resultado son dos tablas de análisis, una para cada línea de trabajo:
 | [notebooks/01_telemetria_vs_mlq.ipynb](notebooks/01_telemetria_vs_mlq.ipynb) | ¿Las decisiones y la telemetría del cursor correlacionan con el MLQ-5X externo o permiten predecirlo? |
 | [notebooks/02_clustering_perfiles.ipynb](notebooks/02_clustering_perfiles.ipynb) | ¿Qué perfiles de interacción del cursor aparecen? Clustering (Ward) con validación train/test, estabilidad y comparación con el MLQ. Guarda `notebooks/output/perfiles_cursor.csv` para el dashboard. |
 
-Requisitos: Python 3.10 o superior con `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `matplotlib` y `seaborn`. Ejecutar desde la carpeta `notebooks/`; la corrida completa tarda unos 6 minutos.
+Requisitos: Python 3.10 o superior con `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `matplotlib` y `seaborn`. Ejecutar desde la carpeta `notebooks/`. Tiempo aproximado de una corrida completa: unos 6 minutos el notebook 01 y cerca de 1,5 minutos el 02.
 
 ## Plan de trabajo
 
