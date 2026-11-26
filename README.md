@@ -70,8 +70,9 @@ El resultado son dos tablas de análisis, una para cada línea de trabajo:
 |---|---|
 | [notebooks/01_telemetria_vs_mlq.ipynb](notebooks/01_telemetria_vs_mlq.ipynb) | ¿Las decisiones y la telemetría del cursor correlacionan con el MLQ-5X externo o permiten predecirlo? |
 | [notebooks/02_clustering_perfiles.ipynb](notebooks/02_clustering_perfiles.ipynb) | ¿Qué perfiles de interacción del cursor aparecen? Clustering (Ward) con validación train/test, estabilidad y comparación con el MLQ. Guarda `notebooks/output/perfiles_cursor.csv` para el dashboard. |
+| [notebooks/03_prediccion_alternativas.ipynb](notebooks/03_prediccion_alternativas.ipynb) | ¿Cuánto anticipa el proceso temprano del cursor la alternativa elegida (A/B/C)? Regresión logística multinomial, árbol y Random Forest con ventanas de 2 a 12 s, validación cruzada por persona y comparación con la moda por nodo. |
 
-Requisitos: Python 3.10 o superior con `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `matplotlib` y `seaborn`. Ejecutar desde la carpeta `notebooks/`. Tiempo aproximado de una corrida completa: unos 6 minutos el notebook 01 y cerca de 1,5 minutos el 02.
+Requisitos: Python 3.10 o superior con `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `matplotlib` y `seaborn`. Ejecutar desde la carpeta `notebooks/`. Tiempo aproximado de una corrida completa: unos 6 minutos el notebook 01, cerca de 1,5 minutos el 02 y unos 15 minutos el 03.
 
 ## Plan de trabajo
 
