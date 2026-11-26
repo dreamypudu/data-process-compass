@@ -64,6 +64,14 @@ El resultado son dos tablas de análisis, una para cada línea de trabajo:
 | Perfiles del cursor | Por usuario | Clustering jerárquico (Ward) sobre indicadores estandarizados y ajustados por nodo: tiempo típico, cambios entre opciones y amplitud de exploración. Se comparan entre 2 y 4 grupos. | Silhouette, tamaño de los grupos y estabilidad ante remuestreo y distintos conjuntos de nodos |
 | Predicción de la alternativa | Por decisión | Regresión logística multinomial y árbol de clasificación, usando el nodo y los eventos previos al clic | Matriz de confusión, F1 macro y exactitud, comparadas con la alternativa más frecuente (global y por nodo) |
 
+## Análisis
+
+| Notebook | Pregunta |
+|---|---|
+| [notebooks/01_telemetria_vs_mlq.ipynb](notebooks/01_telemetria_vs_mlq.ipynb) | ¿Las decisiones y la telemetría del cursor correlacionan con el MLQ-5X externo o permiten predecirlo? |
+
+Requisitos: Python 3.10 o superior con `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `matplotlib` y `seaborn`. Ejecutar desde la carpeta `notebooks/`; la corrida completa tarda unos 6 minutos.
+
 ## Plan de trabajo
 
 | Fechas | Etapa |
